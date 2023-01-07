@@ -1,15 +1,17 @@
 #Mastermind
 class Mastermind
+    #Global variables for class
     @@board
     @@player_score
     @@cpu_score
     @@code
     @@round_count
 
+    #History Data
     @@guesses
     @@hints
 
-
+    #Which role is everyone playing Data
     @@codebreaker
     @@codemaker
 
